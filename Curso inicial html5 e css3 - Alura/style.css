@@ -1,0 +1,407 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-decoration: none;
+	font-size: 22px;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+
+.corFundo {
+	background: #FEFEFE;
+}
+
+/* ------ Referente a página Index ----- */
+
+.banner {
+	width: 100%;
+}
+
+.sobre {
+	width: 940px;
+	margin: 0 auto;
+	padding: 3em 0;
+}
+
+.sobre img {
+	float: left;
+	width: 120px;
+	padding: 0 20px 20px 0;
+}
+
+.sobre p {
+	padding: 0 0 1em 0;
+}
+
+#missao {
+	font-style: italic;
+}
+
+.estabelecimento {
+	padding: 3em 0;
+	background: linear-gradient(#FEFEFE, #888888);
+}
+
+.estabelecimento div {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.estabelecimento p {
+	text-align: center;
+	margin: 0 0 2em;
+}
+
+.beneficios {
+	padding: 3em 0;
+	background: #888888;
+}
+
+.beneficios div {
+	width: 650px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.beneficios ul {
+	position: absolute;
+}
+
+.beneficios li {
+	margin: 0 0 6px;
+}
+
+.beneficios li:first-child {
+	font-weight: bold;
+}
+
+.beneficios li::before {
+	content: "★";
+}
+
+.beneficios img {
+	width: 60%;
+	margin: 0 0 2em 250px;
+	box-shadow: 10px 10px 10px black;
+	transition: 400ms;
+}
+
+.beneficios img:hover {
+	opacity: 0.3;
+}
+
+.beneficios iframe {
+	display: block;
+	margin: 0 auto;
+}
+
+/* ------------------------------------- */
+
+/* ------ Referente a página Produtos ----- */
+
+.itens {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.itens h2 {
+	font-size: 30px;
+	font-weight: bold;
+	
+}
+
+.itens li {
+	display: inline-block;
+	text-align: center;
+	box-sizing: border-box;
+	margin: 0 1.5%;
+	width: 30%;
+	padding: 22px;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	transition: 500ms;
+}
+
+.itens li:hover {
+	border-color: darkorange;
+	transform: scale(1.1);
+}
+
+
+.itens li:active {
+	border-color: green;
+	transition: 0ms;
+}
+
+.descricao-box {
+	font-weight: bold;
+	margin: 0 0 22px;
+}
+
+.valor-box {
+	font-weight: bold;
+	font-size: 22px;
+}
+
+/* ---------------------------------------- */
+
+/* ------ Referente a página Contato ----- */
+
+.usuarioForm {
+	margin: 2em;
+}
+
+label {
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 1em 0 0.5em;
+}
+
+.infoUsuario input {
+	width: 940px;
+	padding: 10px 20px;
+}
+
+.infoUsuario textarea {
+	width: 940px;
+	height: 200px;
+	margin: 0 0 20px;
+}
+
+.contato {
+	margin: 0 0 10px;
+}
+
+.contato legend {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 0 10px;
+}
+
+.contato label {
+	display: inline;
+	margin: 0 0 0 5px;
+}
+
+.contato input {
+	display: inline-block;
+}
+
+.telefone {
+	margin: 10px 0 10px;
+}
+
+.horario {
+	margin: 0 0 16px; ;
+}
+
+.novidades {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 0 10px;	
+}
+
+.horario legend {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 0 0 10px;
+}
+
+#enviar {
+	background: darkorange;
+	color: white;
+	width: 40%;
+	padding: 20px 30px;
+	font-size: 22px;
+	transition: 1s;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+#enviar:hover {
+	transform: scale(1.1);
+}
+
+.horarios {
+	margin: 2em;
+}
+
+.horarios th {
+	font-weight: bold;
+}
+
+.horarios td, th {
+	border: 1px solid black;
+	padding: 5px 15px;
+}
+
+/* --------------------------------------- */
+
+.rodape {
+	background: url(bg.jpg);
+	padding: 2em 0;
+}
+
+footer img {
+	display: block;
+	margin: 0 auto;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+	font-size: 13px;
+	margin: 14px 0;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+.titulo-principal {
+	margin: 0 0 1em 0;
+	text-align: center;
+	font-size: 2em;
+	clear: left;
+}
+
+@media screen and (max-width: 480px) {
+	.caixa {
+		width: 100%;
+	}
+
+	.caixa h1 {
+		text-align: center;
+	}	
+
+	nav {
+		position: static;
+	}
+
+/* ------ Referente a página Index ----- */
+
+.sobre {
+	width: 90%;
+	padding: 2em 0 1em;
+}
+
+.estabelecimento {
+	padding: 1em 0;
+}
+
+.estabelecimento div {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.mapa {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+}
+
+.beneficios {
+	padding: 1em 0 2em;
+}
+
+.beneficios div {
+	width: 100%;
+	text-align: center;
+}
+
+.beneficios ul {
+	width: 80%;
+	margin: 0 20%;
+	text-align: left;
+	position: static;
+}
+
+.beneficios img {
+	width: 60%;
+	margin: 0 auto 2em;
+	box-shadow: 10px 10px 10px black;
+	transition: 400ms;
+}
+
+.video {
+	width: 90%;
+}
+
+/* ------------------------------------- */
+
+/* ------ Referente a página Produtos ----- */
+
+.itens {
+	width: 100%;
+	padding: 0;
+}
+
+.itens li {
+	display: block;
+	width: 70%;
+	margin: 50px auto;
+}
+
+.itens li > img {
+	width: 90%;
+}
+
+/* ---------------------------------------- */
+
+/* ------ Referente a página Contato ----- */
+
+.infoUsuario input {
+	width: 90%;
+}
+
+.infoUsuario textarea {
+	width: 100%;
+}
+
+#enviar {
+	width: 100%;
+}
+
+.horarios {
+	margin: 2em auto;
+}
+
+/* --------------------------------------- */
+}

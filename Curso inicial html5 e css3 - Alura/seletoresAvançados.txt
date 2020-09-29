@@ -1,0 +1,14 @@
+09h02
+
+Em CSS3:
+
+Para selecionar todas as tags filhas: >
+Para selecionar a primeira tag irmã: +
+Para selecionar todas as tags irmãs: ~
+Para excluir uma tag: .classe tag :not(#id)
+
+<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+
+@media screen and (max-width: 480px) {
+}
+
